@@ -66,7 +66,7 @@ The strongest overall model based on 5-fold time-series cross-validation was **N
 ---
 
 ## Foundation Model Note
-A foundation model (Chronos) was considered for this project. However, it was not included in the final implementation due to dependency conflicts in Google Colab. The final submission fully satisfies the project requirements by including statistical, machine learning, and neural models with complete 5-fold time-series cross-validation and evaluation.
+A foundation model (Chronos) was considered and partially implemented for this project using TimeCoPilot-compatible tooling. However, package dependency conflicts in Google Colab prevented stable execution alongside the required Nixtlaverse libraries. The final submission therefore focuses on statistical, machine learning, and neural forecasting models with complete 5-fold time-series cross-validation and evaluation.
 
 ---
 
@@ -74,7 +74,6 @@ A foundation model (Chronos) was considered for this project. However, it was no
 1. Open the notebook in **Google Colab**
 2. Upload `sample_hotels.parquet`
 3. Run all cells
-4. Outputs (CSV files and plots) will be generated automatically
 
 ---
 
