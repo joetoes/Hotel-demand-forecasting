@@ -60,16 +60,6 @@ The project includes a model win-count analysis, showing how often each model ac
 
 ---
 
-## Project 
-
----
-
-## Example Forecast
-
-![Forecast](plots/hotel_0_forecast.png)
-
----
-
 ## Main Findings
 The strongest overall model based on 5-fold time-series cross-validation was **NHITS**, which achieved the lowest average MAE across hotel series. Model performance varied across hotels, indicating that no single approach consistently outperformed others. Neural and machine learning models were better at capturing complex demand patterns, while simpler statistical models performed well on more stable series. These results support using multiple models and evaluating performance at the individual series level.
 
