@@ -1,0 +1,3 @@
+# Main Findings
+
+The strongest overall model based on 5-fold time-series cross-validation was NHITS, which had the lowest average MAE across the hotel series. Model performance varied by hotel, which shows why comparing several forecasting approaches was important instead of relying on one method. Neural and machine learning models were useful for capturing more complex demand patterns, while simpler statistical models remained competitive for more stable hotel series. The model win-count table also shows that no single method won every metric for every hotel. Overall, the final forecasting approach supports using model comparison and per-series evaluation for hotel demand planning.

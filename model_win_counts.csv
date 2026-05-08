@@ -1,0 +1,7 @@
+model,MAE_wins,RMSE_wins,MAPE_wins
+NHITS,5,5,2
+Naive,4,2,3
+LGBMRegressor,3,3,4
+AutoARIMA,3,4,4
+NBEATS,2,3,3
+AutoETS,1,1,2
